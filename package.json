@@ -1,8 +1,8 @@
 {
   "name": "frodo-lazy-img",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "lazy load images using the IntersectionObserver API",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --open development",
     "build": "webpack --mode production",
@@ -13,7 +13,6 @@
   "keywords": [
     "lazyload",
     "lazy",
-    "now",
     "image",
     "img"
   ],
@@ -35,5 +34,5 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
-  "typings": "./index.d.ts"
+  "typings": "./src/index.d.ts"
 }

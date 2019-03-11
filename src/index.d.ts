@@ -1,5 +1,4 @@
-import LazyImage from "./src/index";
-
+export * from './index.js';
 export interface LazyImageProps {
     offset?: number;
     src: string;

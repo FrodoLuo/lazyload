@@ -1,4 +1,4 @@
-# Lazy-Load
+# Lazy-Img
 
 this is only a simple react lazy loading component. As the main purpose is to learn how to use npm publish.
 
