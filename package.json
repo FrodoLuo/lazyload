@@ -1,0 +1,39 @@
+{
+  "name": "frodo-lazy-img",
+  "version": "0.1.1",
+  "description": "lazy load images using the IntersectionObserver API",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel src -d dist",
+    "prepublishOnly": "npm run transpile"
+  },
+  "keywords": [
+    "lazyload",
+    "lazy",
+    "now",
+    "image",
+    "img"
+  ],
+  "author": "FrodoLuo@github",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "typings": "./index.d.ts"
+}
