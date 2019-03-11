@@ -1,6 +1,6 @@
 {
   "name": "frodo-lazy-img",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "lazy load images using the IntersectionObserver API",
   "main": "dist/index.js",
   "scripts": {
