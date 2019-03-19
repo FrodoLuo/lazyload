@@ -1,6 +1,8 @@
 # .npmignore 
 example
+dist/example
 node_modules
 .babelrc
 .gitignore
+yarn-lock.json
 webpack.config.js

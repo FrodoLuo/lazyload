@@ -6,21 +6,22 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-    entry: path.join(__dirname, "./example/demo/index.js"),
+    entry: path.join(__dirname, "./example/demo/index.tsx"),
     output: {
         path: path.join(__dirname, "example/demo/dist"),
         filename: "bundle.js"
     },
     module: {
         rules: [{
-            test: /\.(js|jsx)$/,
-            use: "babel-loader",
+            test: /\.(ts|tsx)$/,
+            use: "ts-loader",
             exclude: /node_modules/
         }]
     },
+    devtool: 'inline-source-map',
     plugins: [htmlWebpackPlugin],
     resolve: {
-        extensions: [".js", ".jsx"]
+        extensions: [".ts", ".tsx", '.js']
     },
     devServer: {
         port: 3001
