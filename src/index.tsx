@@ -94,14 +94,14 @@ export default class LazyImage extends React.Component<LazyImageProps, LazyImage
     }
 }
 
-export interface LazyImageProps {
+export interface LazyImageProps extends React.ComponentProps<'img'> {
     src: string;
-    tag?: string;
+    // todo tag?: string;
     retry?: number;
     onLoadStart?: () => any;
     onLoadSuccess?: () => any;
     onLoadFailed?: (err: Event | string) => any;
-    placeholder?: string;
+    // todo placeholder?: string;
     offset?: number;
 }
 export interface LazyImageState {

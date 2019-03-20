@@ -1,6 +1,6 @@
 {
   "name": "frodo-lazy-img",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "lazy load images using the IntersectionObserver API",
   "main": "dist/src/index.js",
   "scripts": {
@@ -9,6 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "tsc",
     "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/FrodoLuo/lazyload"
   },
   "keywords": [
     "lazyload",
