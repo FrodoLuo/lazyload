@@ -8,7 +8,7 @@ In case someone may accidently dependent on the poor lib. Here is the [Github](h
 ## Install
 
 ```bash
-npm install --save lazy-laod
+npm install --save frodo-lazy-img
 ```
 
 
@@ -19,7 +19,7 @@ Simply import and use it as a ``<img />``
 ``offset``could be set to tell how many pixels to load image before the actual position. 
 
 ```javascript react
-import LazyLoad from 'lazy-load';
+import LazyLoad from 'frodo-lazy-img';
 import React from 'react';
 
 export default () => {
